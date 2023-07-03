@@ -18,4 +18,4 @@ jobs:
     - name: 4. Install Requrements
       run: pip install -r requirements.txt
     - name: 5. exeute python code
-      run: python test.py
+      run: python githubactiontest.py
