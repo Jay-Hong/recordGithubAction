@@ -21,7 +21,7 @@ jobs:
         git config --local user.email "hjpyooo@gmail.com"
         git config --local user.name "Jay"
         git add .
-        Git diff-index —quiet HEAD || git commit -m "Run crawler and update current data"
+        git diff-index —-quiet HEAD || git commit -m "Run crawler and update current data"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
